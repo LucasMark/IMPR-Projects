@@ -1,0 +1,11 @@
+void RunCalculator(char operation, double operand, double accumulator);
+void ScanData(char* operation, double* operand);
+void do_next_op(char operation, double operand, double* accumulator);
+void Addition(double operand, double* accumulator);
+void Subtraction(double operand, double* accumulator);
+void Multiplication(double operand, double* accumulator);
+void Division(double operand, double* accumulator);
+void PowerOf(double operand, double* accumulator);
+void SquareRoot(double* accumulator);
+void Inversion(double* accumulator);
+void DivideByOne(double* accumulator);
